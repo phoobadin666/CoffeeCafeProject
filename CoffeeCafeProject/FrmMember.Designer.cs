@@ -68,6 +68,7 @@
             this.lvShowAllMember.Size = new System.Drawing.Size(422, 312);
             this.lvShowAllMember.TabIndex = 46;
             this.lvShowAllMember.UseCompatibleStateImageBehavior = false;
+            this.lvShowAllMember.SelectedIndexChanged += new System.EventHandler(this.lvShowAllMember_SelectedIndexChanged);
             // 
             // tbMemberName
             // 
